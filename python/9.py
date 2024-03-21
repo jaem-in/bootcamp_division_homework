@@ -8,7 +8,7 @@ def main():
     
     i=1
     while i<=1:
-        n=int(input())
+        n=int(input()) 
         if n<=0:
             print("X")
         else:
