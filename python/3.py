@@ -5,6 +5,14 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    time=int(input())
+    time<=23
+    time>=0
+    if time<12 and time>=0:
+        print("AM")
+    elif time>=12 and time<=23:
+        print("PM")
+
 
     return
 

@@ -5,6 +5,15 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    
+    i=1
+    while i<=1:
+        n=int(input())
+        if n<=0:
+            print("X")
+        else:
+            print(int(((1+n)/2)*n))
+            i=i+1
 
     return
 

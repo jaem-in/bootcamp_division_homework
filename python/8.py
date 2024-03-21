@@ -5,6 +5,16 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    n = int(input())
+    plus = int(((1+n)/2)*n)
+    com=1
+    i=1
+    while i<=n:
+        com=i*com
+        i+=1
+
+    print(plus)
+    print(com)
 
     return
 

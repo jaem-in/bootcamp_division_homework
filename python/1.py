@@ -5,7 +5,13 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    a=input()
+    a=int(a)
+    x=a//100
+    y=(a-x*100)//10
+    z=a%10
 
+    print(z*100+y*10+x)
     return
 
 

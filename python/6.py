@@ -5,6 +5,12 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    A = input()
+    mo=["a","e","i","u","o"]
+    if A in mo:
+        print("O")
+    else:
+        print("X")
 
     return
 

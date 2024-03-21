@@ -5,7 +5,18 @@
 
 def main():
     # 이곳에 코드를 작성해주세요!
+    score =int(input())
 
+    if score<60:
+        print("F")
+    elif score<70:
+        print("D")
+    elif score<80:
+        print("C")
+    elif score<90:
+        print("B")
+    elif score<=100:
+        print("A")
     return
 
 
